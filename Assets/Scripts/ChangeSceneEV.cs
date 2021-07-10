@@ -9,7 +9,7 @@ public class ChangeSceneEV : MonoBehaviour
         if (other.tag == "Player")
         {
             // changeSceneSound.PlayOneShot(changeSceneSound.clip);
-            StartCoroutine(ChangeScene("MarioLevel2"));
+            StartCoroutine(ChangeScene("MarioLevel1-2"));
         }
     }
 
